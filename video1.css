@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding-top: 70px; 
+  font-family: "Arial", sans-serif;
+  background-color: rgb(230, 227, 227);
+}
+
+.banner {
+  background-color: #011F59 !important;
+}
+
+.card {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: white;
+}
+
+h5 {
+  text-align: center;
+}
+
+.text-body-secondary {
+  color: gray;
+}
+
+#home {
+  width: 100%;
+  height: 70vh;
+  background: url('images/study.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(14, 13, 13, 0.575);
+  z-index: 1;
+}
+
+#home .content {
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+  color: white;
+}
+
+.j {
+  font-size: 50px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #011F59 !important;
+  color: white;
+  padding: 3rem 0 1.5rem;
+  margin-top: 32px;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+.footer-heading {
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+}
+
+.footer-heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: gold;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-list li i {
+  margin-right: 0.5rem;
+  width: 16px;
+  color: gold;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-links i {
+  font-size: 1.1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #home {
+    height: 50vh;
+    padding: 15px;
+  }
+  
+  #home .content {
+    max-width: 100%;
+  }
+  
+  .j {
+    font-size: 30px;
+  }
+  
+  .m {
+    font-size: 16px;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    margin-bottom: 2rem;
+  }
+}
