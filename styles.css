@@ -7,6 +7,7 @@ body, html {
     width: 100%;
     overflow-x: hidden; 
     padding-top: 20px;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 /* Hero Section */
 .banner{
@@ -68,6 +69,13 @@ body, html {
 .hero-buttons .btn-primary {
     background-color: #011F59;
     border-color: #011F59;
+}
+.navbar-toggler {
+    border-color: white; 
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
 }
 
 .hero-buttons .btn-primary:hover {

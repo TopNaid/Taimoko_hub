@@ -6,7 +6,16 @@
 }
 body{
     padding-top: 50px;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
 }
+.navbar-toggler {
+    border-color: white; 
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
+}
+
 .banner{
     background-color: #011F59 !important;}
 .hero {
@@ -229,6 +238,10 @@ font-size: 0.9rem;
 @media (max-width: 768px) {
 .footer-content {
  flex-direction: column;
+}
+.about-cards{
+    margin: 10px;
+    gap: 10px;
 }
 
 .footer-section {

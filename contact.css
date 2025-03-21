@@ -6,6 +6,14 @@
 body, html {
     width: 100%;
     overflow-x: hidden; 
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+.navbar-toggler {
+  border-color: white; 
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
 }
 
 .banner{

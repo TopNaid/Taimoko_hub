@@ -7,10 +7,17 @@
 body, html {
     width: 100%;
     overflow-x: hidden; 
+    font-family: 'Poppins', 'Montserrat', sans-serif;
 }
-/* Additional styles for the donated books page */
 .banner{
     background-color: #011F59 !important;
+}
+.navbar-toggler {
+    border-color: white; 
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
 }
 .container {
     max-width: 800px;

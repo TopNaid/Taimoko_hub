@@ -13,6 +13,14 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #dddfeb;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+.navbar-toggler {
+    border-color: white; 
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
 }
 
 .navbar {
