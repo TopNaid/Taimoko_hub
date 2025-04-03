@@ -35,7 +35,7 @@ body {
     width: 100%;
     max-width: 600px;
     position: relative;
-    background-color: #1f2847;
+    background-color: white;
     padding: 30px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -45,14 +45,14 @@ body {
 .heading{
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    color: #011F59;
     margin-bottom: 50px;
 }
 label{
     display: block;
     font-size: 12px;
     margin-bottom: 10px;
-    color: #fff;
+    color: #011F59;
     text-transform: capitalize;
 }
 select{
@@ -63,7 +63,7 @@ select{
     margin-bottom: 20px;
     font-size: 14px;
     background-color: #fff;
-    color: #1f2847
+    color: #011F59
 }
 .btn{
     width: 100%;
@@ -82,7 +82,7 @@ select{
     background-color: #0a6bc5;
 }
 .btn:disabled{
-    background-color: #576881;
+    background-color: gold;
     cursor: not-allowed;
 }
 .hide{
@@ -104,7 +104,7 @@ select{
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 10px;
-    border: 3px solid #3f4868;
+    
 }
 .timer .progress .progress-bar{
     width: 50%;
@@ -119,22 +119,22 @@ select{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #011F59;
     font-size: 16px;
     font-weight: 500;
 }
 .question-wrapper .number{
-    color: #a2aace;
+    color: #011F59;
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 .question-wrapper .number .total{
-    color: #576081;
+    color: #011F59;
     font-size: 18px;
 }
 .question-wrapper .question {
-    color: #fff;
+    color:#011F59;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -143,7 +143,7 @@ select{
     width: 100%;
     height: 60px;
     padding: 20px;
-    color: #fff;
+    color: #011F59;
     border: 3px solid #3f4868;
     border-radius: 10px;
     display: flex;
@@ -190,7 +190,7 @@ select{
     display: none;
 }
 .end-screen .score{
-    color: #fff;
+    color: #011F59;
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 80px;
@@ -298,10 +298,14 @@ select{
     }
 }
 
-@media (max-width: 468) {
+@media (max-width: 640px) {
     .container{
         min-height: 100vh;
         max-width: 100%;
         border-radius: 0;
+        box-shadow: none;
+    }
+    body{
+        background-color: white;
     }
 }
